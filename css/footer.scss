@@ -1,0 +1,33 @@
+footer {
+	background: #000;
+	.contacto {
+		color: #fff;
+		margin-bottom: 50px;
+		font-weight: 300;
+	}
+	.redes {
+		text-align: center;
+		.facebook,
+		.twitter,
+		.youtube {
+			display: inline-block;
+			font-size: 20px;
+			color: #000;
+			background: #fff;
+			padding: 10px 15px;
+			border-radius: 50%;
+			text-align: center;
+			margin: 0 20px;
+			margin-bottom: 50px;
+		}
+		.facebook:hover {
+			background: #3b5998;
+		}
+		.twitter:hover {
+			background: #1da1f2;
+		}
+		.youtube:hover {
+			background: #ff0000;
+		}
+	}
+}
